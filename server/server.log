@@ -1,0 +1,40 @@
+2014-04-27 18:31:05 [INFO] Starting minecraft server version 1.6.4
+2014-04-27 18:31:05 [INFO] Loading properties
+2014-04-27 18:31:05 [WARNING] server.properties does not exist
+2014-04-27 18:31:05 [INFO] Generating new properties file
+2014-04-27 18:31:05 [INFO] Default game type: SURVIVAL
+2014-04-27 18:31:05 [INFO] Generating keypair
+2014-04-27 18:31:05 [INFO] Starting Minecraft server on *:25565
+2014-04-27 18:31:06 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R2.0-b2918jnks (MC: 1.6.4) (Implementing API version 1.6.4-R2.0)
+2014-04-27 18:31:06 [WARNING] Failed to load operators list: java.io.FileNotFoundException: .\ops.txt (The system cannot find the file specified)
+2014-04-27 18:31:06 [WARNING] Failed to load white-list: java.io.FileNotFoundException: .\white-list.txt (The system cannot find the file specified)
+2014-04-27 18:31:06 [INFO] Preparing level "world"
+2014-04-27 18:31:09 [INFO] Preparing start region for level 0 (Seed: 8392122354902031792)
+2014-04-27 18:31:10 [INFO] Preparing spawn area: 11%
+2014-04-27 18:31:11 [INFO] Preparing spawn area: 21%
+2014-04-27 18:31:12 [INFO] Preparing spawn area: 36%
+2014-04-27 18:31:13 [INFO] Preparing spawn area: 53%
+2014-04-27 18:31:14 [INFO] Preparing spawn area: 64%
+2014-04-27 18:31:15 [INFO] Preparing spawn area: 86%
+2014-04-27 18:31:16 [INFO] Preparing start region for level 1 (Seed: 8392122354902031792)
+2014-04-27 18:31:17 [INFO] Preparing spawn area: 11%
+2014-04-27 18:31:18 [INFO] Preparing spawn area: 22%
+2014-04-27 18:31:19 [INFO] Preparing spawn area: 38%
+2014-04-27 18:31:20 [INFO] Preparing spawn area: 46%
+2014-04-27 18:31:21 [INFO] Preparing spawn area: 59%
+2014-04-27 18:31:22 [INFO] Preparing spawn area: 67%
+2014-04-27 18:31:23 [INFO] Preparing spawn area: 81%
+2014-04-27 18:31:24 [INFO] Preparing spawn area: 96%
+2014-04-27 18:31:24 [INFO] Preparing start region for level 2 (Seed: 8392122354902031792)
+2014-04-27 18:31:25 [INFO] Preparing spawn area: 44%
+2014-04-27 18:31:26 [INFO] Preparing spawn area: 88%
+2014-04-27 18:31:27 [INFO] Done (20.926s)! For help, type "help" or "?"
+2014-04-27 18:31:42 [INFO] CONSOLE: Stopping the server..[m
+2014-04-27 18:31:42 [INFO] Stopping server
+2014-04-27 18:31:42 [INFO] Saving players
+2014-04-27 18:31:42 [WARNING] DSCT: socket closed
+2014-04-27 18:31:42 [INFO] Saving worlds
+2014-04-27 18:31:42 [INFO] Closing listening thread
+2014-04-27 18:31:42 [INFO] Saving chunks for level 'world'/Overworld
+2014-04-27 18:31:42 [INFO] Saving chunks for level 'world_nether'/Nether
+2014-04-27 18:31:45 [INFO] Saving chunks for level 'world_the_end'/The End
