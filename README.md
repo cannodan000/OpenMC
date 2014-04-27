@@ -11,7 +11,7 @@ This project is a social experiment to see how well a community can withstand it
 To join the server, the IP is `coming soon`
 
 #How does it work?
-Simple! If you want to, let's say, add a plugin. Simply fork this repo, add the plugin to the "server" folder and submit a pull request.
+Simple! If you want to, let's say, add a plugin. Simply fork this repo, add the plugin to the `server` folder and submit a pull request.
 
 If enough people in the community agree that your pull request is a valuable pull request, then it will be merged into the repo and downloaded onto the server within 24 hours.
 
@@ -21,6 +21,6 @@ If enough people in the community agree that your pull request is a valuable pul
 Yes, read the full set of rules on the [wiki][1]
 
 ##What if someone breaks these rules?
-There github username will be added to the .pullignore file and all there pull requests will be closed as soon as they are opened.
+There github username will be added to the `.pullignore` file and all there pull requests will be closed as soon as they are opened.
 
 [1]: https://github.com/GamezGalaxy2/OpenMC/wiki/Rules
