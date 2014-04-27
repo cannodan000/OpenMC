@@ -15,8 +15,12 @@ Simple! If you want to, let's say, add a plugin. Simply fork this repo, add the 
 
 If enough people in the community agree that your pull request is a valuable pull request, then it will be merged into the repo and downloaded onto the server within 24 hours.
 
-#Are there any rules?
-Yes, read the full set of rules on the wiki
+#Rules
 
-#What if someone breaks these rules?
+##Are there any?
+Yes, read the full set of rules on the [wiki][1]
+
+##What if someone breaks these rules?
 There github username will be added to the .pullignore file and all there pull requests will be closed as soon as they are opened.
+
+[1]: https://github.com/GamezGalaxy2/OpenMC/wiki/Rules
