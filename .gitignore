@@ -11,6 +11,16 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+
+#Server Files
+server/world/*
+server/world_nether/*
+server/world_the_end/*
+server/plugins/WorldEdit/nmsblocks/*
+
+worldedit.log
+*.log.gz
+
 .idea/*
 source/.idea/*
 *.iml
