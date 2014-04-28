@@ -45,4 +45,8 @@ public class CommandHolder {
 
         return Collections.unmodifiableList(temp);
     }
+
+    public Command getCommand() {
+        return command;
+    }
 }

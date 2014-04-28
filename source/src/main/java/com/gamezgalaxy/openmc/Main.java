@@ -18,7 +18,7 @@ import java.util.Scanner;
 
 public class Main {
     private static long mainID;
-    private static List<CommandHolder> commands;
+    public static List<CommandHolder> commands;
     public static boolean end = false;
 
 
@@ -70,7 +70,7 @@ public class Main {
             }
         }
     }
-    
+
     public static void log(String text) {
         if (Thread.currentThread().getId() != mainID)
             System.err.println(text);
@@ -91,11 +91,26 @@ public class Main {
         }
     }
 
+    public static boolean isServerProcessAlive() {
+        try {
+            serverProcess.exitValue();
+        } catch (IllegalThreadStateException e) {
+            return true;
+        }
+        return false;
+    }
+
     /**
      * Pull the repo for new changes
      */
     public static void pullRepo() throws IOException, InterruptedException {
-        Process gitProcess = Runtime.getRuntime().exec("git fetch && git reset --hard origin/master");
+        runCommand("git fetch");
+        runCommand("git reset --hard origin/master");
+    }
+
+    //git fetch && git reset --hard origin/master
+    private static void runCommand(String cmd) throws IOException, InterruptedException {
+        Process gitProcess = Runtime.getRuntime().exec(cmd);
         BufferedReader input = new BufferedReader(new InputStreamReader(gitProcess.getInputStream()));
         String line;
         while ((line = input.readLine()) != null) {
