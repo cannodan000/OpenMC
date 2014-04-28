@@ -1,0 +1,37 @@
+[07:17:24] [Server thread/INFO]: Starting minecraft server version 1.7.9
+[07:17:24] [Server thread/INFO]: Loading properties
+[07:17:24] [Server thread/INFO]: Default game type: SURVIVAL
+[07:17:24] [Server thread/INFO]: Generating keypair
+[07:17:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:17:25] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-59-g6efeddf-b3074jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.1-SNAPSHOT)
+[07:17:25] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.2
+[07:17:25] [Server thread/INFO]: Preparing level "world"
+[07:17:25] [Server thread/INFO]: Preparing start region for level 0 (Seed: -7817211941850979171)
+[07:17:26] [Thread-7/INFO]: ----- Bukkit Auto Updater -----
+[07:17:26] [Thread-7/INFO]: It appears that you're running a Development Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
+[07:17:26] [Thread-7/INFO]: If you would like to be kept informed about new Development Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'dev'.
+[07:17:26] [Thread-7/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
+[07:17:26] [Thread-7/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
+[07:17:26] [Thread-7/INFO]: ----- ------------------- -----
+[07:17:26] [Server thread/INFO]: Preparing spawn area: 17%
+[07:17:27] [Server thread/INFO]: Preparing spawn area: 44%
+[07:17:28] [Server thread/INFO]: Preparing start region for level 1 (Seed: -7817211941850979171)
+[07:17:29] [Server thread/INFO]: Preparing start region for level 2 (Seed: -7817211941850979171)
+[07:17:29] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.2
+[07:17:29] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[07:17:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:17:29] [Server thread/INFO]: Done (4.009s)! For help, type "help" or "?"
+[07:17:35] [Server thread/INFO]: CONSOLE: Opped hypereddie10[m
+[07:17:38] [Server thread/INFO]: CONSOLE: Opped roboman2444[m
+[07:17:41] [Server thread/INFO]: CONSOLE: Stopping the server..[m
+[07:17:41] [Server thread/INFO]: Stopping server
+[07:17:41] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v5.6.2
+[07:17:41] [Server thread/INFO]: Saving players
+[07:17:41] [Server thread/INFO]: Saving worlds
+[07:17:41] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[07:17:41] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[07:17:42] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[07:17:42] [Thread-4/INFO]: Stopping server
+[07:17:42] [Thread-4/INFO]: Saving players
+[07:17:42] [Thread-4/INFO]: Saving worlds
+[07:17:42] [Thread-4/INFO]: Saving chunks for level 'world'/Overworld

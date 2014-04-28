@@ -15,6 +15,10 @@ hs_err_pid*
 server/world/*
 server/world_nether/*
 server/world_the_end/*
+server/plugins/WorldEdit/nmsblocks/*
+
+worldedit.log
+*.log.gz
 
 .idea/*
 source/.idea/*
