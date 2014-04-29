@@ -18,6 +18,11 @@ server/world_nether/*
 server/world_the_end/*
 server/plugins/WorldEdit/nmsblocks/*
 
+#Source Files
+source/out/*
+target/*
+source/src/main/java/META-INF/*
+
 worldedit.log
 *.log.gz
 
