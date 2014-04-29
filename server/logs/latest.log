@@ -1,43 +1,39 @@
-[14:51:05] [Server thread/INFO]: Starting minecraft server version 1.7.9
-[14:51:05] [Server thread/INFO]: Loading properties
-[14:51:05] [Server thread/INFO]: Default game type: SURVIVAL
-[14:51:05] [Server thread/INFO]: Generating keypair
-[14:51:05] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:51:06] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-59-g6efeddf-b3074jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.1-SNAPSHOT)
-[14:51:06] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.2
-[14:51:06] [Server thread/INFO]: Preparing level "world"
-[14:51:06] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4197496233935427856)
-[14:51:07] [Thread-7/INFO]: ----- Bukkit Auto Updater -----
-[14:51:07] [Thread-7/INFO]: It appears that you're running a Development Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
-[14:51:07] [Thread-7/INFO]: If you would like to be kept informed about new Development Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'dev'.
-[14:51:07] [Thread-7/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
-[14:51:07] [Thread-7/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
-[14:51:07] [Thread-7/INFO]: ----- ------------------- -----
-[14:51:07] [Server thread/INFO]: Preparing spawn area: 69%
-[14:51:07] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4197496233935427856)
-[14:51:08] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4197496233935427856)
-[14:51:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.2
-[14:51:08] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[14:51:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:51:08] [Server thread/INFO]: Done (2.518s)! For help, type "help" or "?"
-[14:51:46] [Server thread/INFO]: [0;31;1mCorrect command usage:
-/whitelist (add|remove) <player>
-/whitelist (on|off|list|reload)[m
-[14:51:56] [Server thread/INFO]: CONSOLE: Added CrusaderDeleters to white-list[m
-[14:52:05] [Server thread/INFO]: CONSOLE: Opped CrusaderDeleters[m
-[14:53:55] [User Authenticator #1/INFO]: UUID of player hypereddie10 is 29f5edaa-fccf-4058-b0bb-f519c78e6faa
-[14:53:56] [Server thread/INFO]: hypereddie10[/192.168.1.20:59559] logged in with entity id 217 at ([world] 238.5, 74.0, 248.5)
-[14:54:01] [Server thread/INFO]: hypereddie10 issued server command: /creative
-[14:54:05] [Server thread/INFO]: hypereddie10 issued server command: /gamemode 1
-[14:54:05] [Server thread/INFO]: hypereddie10: Set own game mode to CREATIVE mode[m
-[14:54:17] [Server thread/INFO]: [WorldEdit] Using external NmsBlock for this version: CBXNmsBlock_175_5xcompat
-[14:54:33] [Server thread/INFO]: hypereddie10 lost connection: Disconnected
-[14:54:33] [Server thread/INFO]: hypereddie10 left the game.
-[14:55:22] [User Authenticator #2/INFO]: UUID of player hypereddie10 is 29f5edaa-fccf-4058-b0bb-f519c78e6faa
-[14:55:22] [Server thread/INFO]: hypereddie10[/192.168.1.14:52195] logged in with entity id 1750 at ([world] 240.9382678530562, 79.14518423463232, 217.71027639332476)
-[14:56:10] [Server thread/INFO]: hypereddie10 lost connection: Disconnected
-[14:56:10] [Server thread/INFO]: hypereddie10 left the game.
-[15:15:05] [Server thread/INFO]: CONSOLE: Added Waltersson to white-list[m
-[15:15:10] [Server thread/INFO]: CONSOLE: Added waltersson to white-list[m
-[15:18:04] [User Authenticator #3/INFO]: UUID of player Waltersson is 1262f53e-7764-4896-a828-ae14f13130d5
-[15:18:04] [Server thread/INFO]: Waltersson[/83.209.212.243:53092] logged in with entity id 3541 at ([world] -443.02408161823814, 80.0, 530.7877900025524)
+[22:19:46] [Server thread/INFO]: Starting minecraft server version 1.7.9
+[22:19:46] [Server thread/INFO]: Loading properties
+[22:19:46] [Server thread/INFO]: Default game type: SURVIVAL
+[22:19:46] [Server thread/INFO]: Generating keypair
+[22:19:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:19:47] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-59-g6efeddf-b3074jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.1-SNAPSHOT)
+[22:19:48] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.2
+[22:19:48] [Server thread/INFO]: [VoxelSniper] Loading VoxelSniper v5.169.0-SNAPSHOT-jnks309-git7b2b282
+[22:19:48] [Server thread/INFO]: Preparing level "world"
+[22:19:48] [Server thread/INFO]: Preparing start region for level 0 (Seed: -7817211941850979171)
+[22:19:48] [Thread-8/INFO]: ----- Bukkit Auto Updater -----
+[22:19:48] [Thread-8/INFO]: It appears that you're running a Development Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
+[22:19:48] [Thread-8/INFO]: If you would like to be kept informed about new Development Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'dev'.
+[22:19:48] [Thread-8/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
+[22:19:48] [Thread-8/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
+[22:19:48] [Thread-8/INFO]: ----- ------------------- -----
+[22:19:49] [Server thread/INFO]: Preparing spawn area: 71%
+[22:19:49] [Server thread/INFO]: Preparing start region for level 1 (Seed: -7817211941850979171)
+[22:19:50] [Server thread/INFO]: Preparing start region for level 2 (Seed: -7817211941850979171)
+[22:19:50] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.2
+[22:19:50] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:19:50] [Server thread/INFO]: [VoxelSniper] Enabling VoxelSniper v5.169.0-SNAPSHOT-jnks309-git7b2b282
+[22:19:50] [Server thread/INFO]: [VoxelSniper] Registered 75 Sniper Brushes with 149 handles.
+[22:19:50] [Server thread/INFO]: [VoxelSniper] Registered Sniper Listener.
+[22:19:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:19:51] [Server thread/INFO]: Done (2.879s)! For help, type "help" or "?"
+[22:20:03] [Server thread/INFO]: CONSOLE: Stopping the server..[m
+[22:20:03] [Server thread/INFO]: Stopping server
+[22:20:03] [Server thread/INFO]: [VoxelSniper] Disabling VoxelSniper v5.169.0-SNAPSHOT-jnks309-git7b2b282
+[22:20:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v5.6.2
+[22:20:03] [Server thread/INFO]: Saving players
+[22:20:03] [Server thread/INFO]: Saving worlds
+[22:20:03] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:20:05] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[22:20:05] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[22:20:05] [Thread-4/INFO]: Stopping server
+[22:20:05] [Thread-4/INFO]: Saving players
+[22:20:05] [Thread-4/INFO]: Saving worlds
+[22:20:05] [Thread-4/INFO]: Saving chunks for level 'world'/Overworld
