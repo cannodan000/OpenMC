@@ -23,12 +23,13 @@ public class Main {
 
 
     public static GHRepository OpenMC;
+    public static String username, password;
     public static List<String> pullIgnores = new ArrayList<String>();
 
     public static Thread looper;
 
     public static Process serverProcess;
-    public static final String COMMAND = "java -Xmx1024M -Xms1024M -jar server/craftbukkit.jar";
+    public static final String COMMAND = "java -Xmx1024M -Xms1024M -jar craftbukkit.jar";
     public static void main(String[] args) {
         mainID = Thread.currentThread().getId();
 
@@ -39,8 +40,8 @@ public class Main {
         try {
             String text = FileUtils.readAllLines("github.dat")[0];
 
-            String username = text.split(":")[0];
-            String password = text.split(":")[1];
+            username = text.split(":")[0];
+            password = text.split(":")[1];
 
             log("Logging into github..");
             GitHub github = GitHub.connectUsingPassword(username, password);
@@ -51,7 +52,7 @@ public class Main {
             pullIgnores = FileUtils.readToList(".pullignore");
 
             log("Staritng server in separate process..");
-            serverProcess = Runtime.getRuntime().exec(COMMAND);
+            startServer();
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -71,6 +72,12 @@ public class Main {
         }
     }
 
+    public static void startServer() throws IOException {
+        ProcessBuilder pb = new ProcessBuilder(COMMAND.split(" "));
+        pb.directory(new File("server/"));
+        serverProcess = pb.start();
+    }
+
     public static void log(String text) {
         if (Thread.currentThread().getId() != mainID)
             System.err.println(text);
@@ -81,7 +88,8 @@ public class Main {
     public static void stopServer() {
         log("Sending stop command to server..");
         PrintStream pout = new PrintStream(serverProcess.getOutputStream());
-        pout.println("/stop");
+        pout.println("stop");
+        pout.flush();
         try {
             log("Waiting for server to stop..");
             int value = serverProcess.waitFor();
@@ -89,6 +97,7 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        pout.close();
     }
 
     public static boolean isServerProcessAlive() {
@@ -104,24 +113,39 @@ public class Main {
      * Pull the repo for new changes
      */
     public static void pullRepo() throws IOException, InterruptedException {
-        runCommand("git fetch");
-        runCommand("git reset --hard origin/master");
+        log("Commiting any changes..");
+        runCommand("git add .");
+        runCommand("git commit -m \"Updating server files\"");
+        runCommand("git pull"); //TODO Maybe avoid conflicts..?
+        runCommand("git push", username, password);
     }
 
     //git fetch && git reset --hard origin/master
-    private static void runCommand(String cmd) throws IOException, InterruptedException {
+    private static void runCommand(String cmd, String... toSend) throws IOException, InterruptedException {
         Process gitProcess = Runtime.getRuntime().exec(cmd);
+        if (toSend.length > 0) {
+            PrintStream pout = new PrintStream(gitProcess.getOutputStream());
+            for (String s : toSend) {
+                pout.println(s);
+            }
+            pout.flush();
+            pout.close();
+        }
         BufferedReader input = new BufferedReader(new InputStreamReader(gitProcess.getInputStream()));
         String line;
         while ((line = input.readLine()) != null) {
             log(line);
         }
 
+        input.close();
+
         BufferedReader input2 = new BufferedReader(new InputStreamReader(gitProcess.getErrorStream()));
         String line2;
         while ((line2 = input2.readLine()) != null) {
             log(line2);
         }
+
+        input2.close();
 
         gitProcess.waitFor();
     }
@@ -159,7 +183,7 @@ public class Main {
                         pullRepo();
 
                         log("Starting server again..");
-                        serverProcess = Runtime.getRuntime().exec(COMMAND);
+                        startServer();
                     } catch (IOException e) {
                         e.printStackTrace();
                     } catch (InterruptedException e) {

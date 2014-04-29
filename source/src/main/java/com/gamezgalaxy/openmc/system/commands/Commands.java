@@ -31,7 +31,7 @@ public class Commands {
             Main.pullRepo();
 
             Main.log("Starting server again..");
-            Main.serverProcess = Runtime.getRuntime().exec(Main.COMMAND);
+            Main.startServer();
         } catch (IOException e) {
             e.printStackTrace();
         } catch (InterruptedException e) {
@@ -48,7 +48,7 @@ public class Commands {
         Main.stopServer();
         Main.log("Starting server again..");
         try {
-            Main.serverProcess = Runtime.getRuntime().exec(Main.COMMAND);
+            Main.startServer();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -70,7 +70,7 @@ public class Commands {
                     if (!Main.isServerProcessAlive()) {
                         Main.log("The server is not online! Try using \'r\' to restart it..");
                     }
-                    BufferedReader input2 = new BufferedReader(new InputStreamReader(Main.serverProcess.getErrorStream()));
+                    BufferedReader input2 = new BufferedReader(new InputStreamReader(Main.serverProcess.getInputStream()));
                     String line2;
                     try {
                         while ((line2 = input2.readLine()) != null) {
