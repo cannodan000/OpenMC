@@ -10,7 +10,6 @@ import org.kohsuke.github.GHRepository;
 import org.kohsuke.github.GitHub;
 
 import java.io.*;
-import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -40,10 +39,13 @@ public class Main {
 
         log("Reading from passsword file..");
         try {
-            String text = FileUtils.readAllLines("github.dat")[0];
+            String text = FileUtils.readAllLines("data/github.dat")[0];
 
             username = text.split(":")[0];
             password = text.split(":")[1];
+
+            log("Loading cache data..");
+            loadAnnounced();
 
             log("Logging into github..");
             GitHub github = GitHub.connectUsingPassword(username, password);
@@ -51,7 +53,7 @@ public class Main {
             OpenMC = github.getRepository("GamezGalaxy2/OpenMC");
 
             log("Reading .pullignore file..");
-            pullIgnores = FileUtils.readToList(".pullignore");
+            pullIgnores = FileUtils.readToList("data/.pullignore");
 
             log("Staritng server in separate process..");
             startServer();
@@ -131,6 +133,27 @@ public class Main {
         runCommand("git push", username, password);
     }
 
+    private static void saveAnnounced() throws IOException {
+        String[] lines = new String[announced_pulls.size()];
+        for (int i = 0; i < announced_pulls.size(); i++) {
+            lines[i] = "" + announced_pulls.get(i);
+        }
+
+        FileUtils.writeLines("data/pulls.cache", lines);
+    }
+
+    private static void loadAnnounced() throws IOException {
+        List<String> list = FileUtils.readToList("data/pulls.cache");
+
+        for (String s : list) {
+            try {
+                announced_pulls.add(Integer.parseInt(s));
+            } catch (Throwable t) {
+                t.printStackTrace();
+            }
+        }
+    }
+
     //git fetch && git reset --hard origin/master
     private static void runCommand(String cmd, String... toSend) throws IOException, InterruptedException {
         Process gitProcess = Runtime.getRuntime().exec(cmd);
@@ -161,6 +184,7 @@ public class Main {
         gitProcess.waitFor();
     }
 
+    private static List<Integer> announced_pulls = new ArrayList<>();
     private static final Runnable MAIN_LOOP = new Runnable() {
         @Override
         public void run() {
@@ -177,6 +201,12 @@ public class Main {
                             request.close();
                             log("Closed banned pull request: " + request.getTitle());
                             iterator.remove();
+                        }
+                        if (!announced_pulls.contains(request.getNumber())) {
+                            Commands.sendCmd("say §l§aNew Pull Request by §r§o" + request.getUser().getLogin() + "§r! | §n" + request.getTitle());
+
+                            announced_pulls.add(request.getNumber());
+                            saveAnnounced();
                         }
                     }
                     log("There are " + pulls.size() + " open pull requests!");
