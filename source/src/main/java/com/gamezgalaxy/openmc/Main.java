@@ -29,6 +29,8 @@ public class Main {
     public static Thread looper;
 
     public static Process serverProcess;
+    public static BufferedReader serverReader;
+    public static PrintWriter serverWriter;
     public static final String COMMAND = "java -Xmx1024M -Xms1024M -jar craftbukkit.jar";
     public static void main(String[] args) {
         mainID = Thread.currentThread().getId();
@@ -65,9 +67,12 @@ public class Main {
         final Scanner scan = new Scanner(System.in);
         while (!end) {
             String line = scan.nextLine();
+            char cmd = line.toCharArray()[0];
+            line = line.substring(1).trim();
             for (CommandHolder c : commands) {
-                if (c.matches(line))
-                    c.invoke();
+                if (c.matches(cmd)) {
+                    c.invoke(line);
+                }
             }
         }
     }
@@ -76,6 +81,8 @@ public class Main {
         ProcessBuilder pb = new ProcessBuilder(COMMAND.split(" "));
         pb.directory(new File("server/"));
         serverProcess = pb.start();
+        serverReader = new BufferedReader(new InputStreamReader(serverProcess.getInputStream()));
+        serverWriter = new PrintWriter(serverProcess.getOutputStream());
     }
 
     public static void log(String text) {
@@ -87,9 +94,8 @@ public class Main {
 
     public static void stopServer() {
         log("Sending stop command to server..");
-        PrintStream pout = new PrintStream(serverProcess.getOutputStream());
-        pout.println("stop");
-        pout.flush();
+        serverWriter.println("stop");
+        serverWriter.flush();
         try {
             log("Waiting for server to stop..");
             int value = serverProcess.waitFor();
@@ -97,7 +103,12 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        pout.close();
+        serverWriter.close();
+        try {
+            serverReader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static boolean isServerProcessAlive() {

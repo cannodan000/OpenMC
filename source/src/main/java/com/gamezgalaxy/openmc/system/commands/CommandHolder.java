@@ -11,9 +11,9 @@ public class CommandHolder {
     private Method method;
     private Command command;
 
-    public void invoke() {
+    public void invoke(String line) {
         try {
-            method.invoke(null);
+            method.invoke(null, line);
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (InvocationTargetException e) {
@@ -23,8 +23,8 @@ public class CommandHolder {
         }
     }
 
-    public boolean matches(String message) {
-        return message.toCharArray()[0] == command.command();
+    public boolean matches(char cmd) {
+        return cmd == command.command();
     }
 
     public static List<CommandHolder> lazyLoadCommands(Class<?> commandClass) {
