@@ -84,5 +84,5 @@ When submitting a pull request to OpenMC, you must format your pull request in a
 >
 > If you are submitting a plugin addition/update or updating the server software, ***you must provide a MD5 checksum of all .jar files and executable/binary files***.
 >
-> ####Related PR(s):
-> This section should link related pull requests or alternate pull requests if any exist. Each linked PR should have a reason on why it's linked next to it (ex: "PR #113 - Adds the same plugin but does not add permissions)
+> ####Related PR(s) and issue(s):
+> This section should link related pull requests, issues, or alternate pull requests if any exist. Each linked PR/issue should have a reason on why it's linked next to it (ex: "PR #113 - Adds the same plugin but does not add permissions)
