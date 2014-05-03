@@ -1,39 +1,28 @@
-[22:19:46] [Server thread/INFO]: Starting minecraft server version 1.7.9
-[22:19:46] [Server thread/INFO]: Loading properties
-[22:19:46] [Server thread/INFO]: Default game type: SURVIVAL
-[22:19:46] [Server thread/INFO]: Generating keypair
-[22:19:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:19:47] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-59-g6efeddf-b3074jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.1-SNAPSHOT)
-[22:19:48] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.2
-[22:19:48] [Server thread/INFO]: [VoxelSniper] Loading VoxelSniper v5.169.0-SNAPSHOT-jnks309-git7b2b282
-[22:19:48] [Server thread/INFO]: Preparing level "world"
-[22:19:48] [Server thread/INFO]: Preparing start region for level 0 (Seed: -7817211941850979171)
-[22:19:48] [Thread-8/INFO]: ----- Bukkit Auto Updater -----
-[22:19:48] [Thread-8/INFO]: It appears that you're running a Development Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
-[22:19:48] [Thread-8/INFO]: If you would like to be kept informed about new Development Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'dev'.
-[22:19:48] [Thread-8/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
-[22:19:48] [Thread-8/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
-[22:19:48] [Thread-8/INFO]: ----- ------------------- -----
-[22:19:49] [Server thread/INFO]: Preparing spawn area: 71%
-[22:19:49] [Server thread/INFO]: Preparing start region for level 1 (Seed: -7817211941850979171)
-[22:19:50] [Server thread/INFO]: Preparing start region for level 2 (Seed: -7817211941850979171)
-[22:19:50] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.2
-[22:19:50] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[22:19:50] [Server thread/INFO]: [VoxelSniper] Enabling VoxelSniper v5.169.0-SNAPSHOT-jnks309-git7b2b282
-[22:19:50] [Server thread/INFO]: [VoxelSniper] Registered 75 Sniper Brushes with 149 handles.
-[22:19:50] [Server thread/INFO]: [VoxelSniper] Registered Sniper Listener.
-[22:19:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:19:51] [Server thread/INFO]: Done (2.879s)! For help, type "help" or "?"
-[22:20:03] [Server thread/INFO]: CONSOLE: Stopping the server..[m
-[22:20:03] [Server thread/INFO]: Stopping server
-[22:20:03] [Server thread/INFO]: [VoxelSniper] Disabling VoxelSniper v5.169.0-SNAPSHOT-jnks309-git7b2b282
-[22:20:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v5.6.2
-[22:20:03] [Server thread/INFO]: Saving players
-[22:20:03] [Server thread/INFO]: Saving worlds
-[22:20:03] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[22:20:05] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[22:20:05] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
-[22:20:05] [Thread-4/INFO]: Stopping server
-[22:20:05] [Thread-4/INFO]: Saving players
-[22:20:05] [Thread-4/INFO]: Saving worlds
-[22:20:05] [Thread-4/INFO]: Saving chunks for level 'world'/Overworld
+[13:41:58] [Server thread/INFO]: Starting minecraft server version 1.7.9
+[13:41:58] [Server thread/INFO]: Loading properties
+[13:41:58] [Server thread/INFO]: Default game type: SURVIVAL
+[13:41:58] [Server thread/INFO]: Generating keypair
+[13:41:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:41:59] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-59-g6efeddf-b3074jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.1-SNAPSHOT)
+[13:41:59] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.2
+[13:41:59] [Server thread/INFO]: [VoxelSniper] Loading VoxelSniper v5.169.0-SNAPSHOT-jnks309-git7b2b282
+[13:41:59] [Server thread/INFO]: Preparing level "world"
+[13:41:59] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4197496233935427856)
+[13:42:00] [Thread-8/INFO]: ----- Bukkit Auto Updater -----
+[13:42:00] [Thread-8/INFO]: It appears that you're running a Development Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
+[13:42:00] [Thread-8/INFO]: If you would like to be kept informed about new Development Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'dev'.
+[13:42:00] [Thread-8/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
+[13:42:00] [Thread-8/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
+[13:42:00] [Thread-8/INFO]: ----- ------------------- -----
+[13:42:00] [Server thread/INFO]: Preparing spawn area: 42%
+[13:42:01] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4197496233935427856)
+[13:42:02] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4197496233935427856)
+[13:42:02] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.2
+[13:42:02] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:42:02] [Server thread/INFO]: [VoxelSniper] Enabling VoxelSniper v5.169.0-SNAPSHOT-jnks309-git7b2b282
+[13:42:02] [Server thread/INFO]: [VoxelSniper] Registered 75 Sniper Brushes with 149 handles.
+[13:42:02] [Server thread/INFO]: [VoxelSniper] Registered Sniper Listener.
+[13:42:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:42:02] [Server thread/INFO]: Done (2.949s)! For help, type "help" or "?"
+[13:42:29] [Thread-4/INFO]: Stopping server
+[13:42:29] [Thread-4/INFO]: [VoxelSniper] Disabling VoxelSniper v5.169.0-SNAPSHOT-jnks309-git7b2b282
