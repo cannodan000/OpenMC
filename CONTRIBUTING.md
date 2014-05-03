@@ -1,6 +1,5 @@
 #Contributing Guidelines
-While we allow anyone to contribute to OpenMC. We have to set some guidelines to make the process as smooth as possible. If
-you plan to get involved, please read everything and make sure you follow this guideline exactly.
+While we allow anyone to contribute to OpenMC, we have to set some guidelines to make the process as smooth as possible. If you plan to get involved, please read everything and make sure you follow this guideline exactly.
 
 ##Contributing to the Server
 There are three types of contributions you can make to the OpenMC server. A configuration change, a plugin addition/updating/removal, and
