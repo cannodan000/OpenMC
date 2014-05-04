@@ -155,3 +155,10 @@
 [00:19:51] [Async Chat Thread - #0/INFO]: <ItalianSkillz> aww crus
 [00:19:53] [Server thread/INFO]: ItalianSkillz issued server command: /summon
 [00:19:54] [Async Chat Thread - #0/INFO]: <richardfrost> oh you have to get into metadata tags for that
+[00:20:33] [Server thread/INFO]: ItalianSkillz issued server command: /summon Skeleton {Equipment:[{267},{},{},{},{}]}
+[00:20:33] [Server thread/INFO]: [ItalianSkillz: Object successfully summoned]
+[00:20:37] [Server thread/INFO]: ItalianSkillz issued server command: /summon Skeleton {Equipment:[{id:267},{},{},{},{}]}
+[00:20:37] [Server thread/INFO]: [ItalianSkillz: Object successfully summoned]
+[00:20:44] [Server thread/INFO]: ItalianSkillz issued server command: /summon Skeleton {Equipment:[{id:26a},{},{},{},{}]}
+[00:20:44] [Server thread/INFO]: [ItalianSkillz: Object successfully summoned]
+[00:20:47] [Async Chat Thread - #0/INFO]: <CrusaderDeleters> He won't pick it up. :c
