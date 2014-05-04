@@ -17,7 +17,8 @@ Simple! If you want to, let's say, add a plugin. Simply fork this repo, add the 
 If enough people in the community agree that your pull request is a valuable pull request, then it will be merged into the repo and downloaded onto the server within 24 hours.
 
 ##Can I contribute?
-Sure!
+Sure! Be sure to read the [CONTRIBUTING](https://github.com/GamezGalaxy2/OpenMC/blob/master/CONTRIBUTING.md) file before
+submitting a pull request!
 
 #Rules
 
