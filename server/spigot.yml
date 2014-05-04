@@ -12,16 +12,16 @@
 
 config-version: 6
 commands:
-  tab-complete: 0
-  log: true
-  silent-commandblock-console: false
-  spam-exclusions:
-  - /skill
   replace-commands:
   - setblock
   - summon
   - testforblock
   - tellraw
+  tab-complete: 0
+  silent-commandblock-console: false
+  spam-exclusions:
+  - /skill
+  log: true
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
@@ -29,19 +29,19 @@ messages:
   outdated-client: Outdated client! Please use {}
   outdated-server: Outdated server! I'm still on {0}
   restart: Server is restarting
+stats:
+  disable-saving: false
+  forced-stats: {}
 settings:
   player-shuffle: 0
   bungeecord: false
   late-bind: false
-  sample-count: 12
   filter-creative-items: true
+  sample-count: 12
   netty-threads: 4
   timeout-time: 60
   restart-on-crash: false
   restart-script: ./start.sh
-stats:
-  disable-saving: false
-  forced-stats: {}
 world-settings:
   default:
     verbose: true
@@ -51,39 +51,13 @@ world-settings:
     merge-radius:
       exp: 3.0
       item: 2.5
-    nerf-spawner-mobs: false
     mob-spawn-range: 4
-    enable-zombie-pigmen-portal-spawns: true
-    zombie-aggressive-towards-villager: true
+    nerf-spawner-mobs: false
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
+    enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-    dragon-death-sound-radius: 0
-    max-bulk-chunks: 5
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-    max-entity-collisions: 8
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 8
-    hopper-amount: 1
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
-    random-light-updates: false
+    zombie-aggressive-towards-villager: true
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -104,4 +78,30 @@ world-settings:
       replace-blocks:
       - 1
       - 5
+    random-light-updates: false
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    hopper-amount: 1
     save-structure-info: true
+    max-bulk-chunks: 5
+    max-entity-collisions: 8
+    dragon-death-sound-radius: 0
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100

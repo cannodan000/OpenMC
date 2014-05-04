@@ -1,29 +1,157 @@
-[19:39:45] [Server thread/INFO]: Starting minecraft server version 1.7.9
-[19:39:45] [Server thread/INFO]: Loading properties
-[19:39:45] [Server thread/INFO]: Default game type: SURVIVAL
-[19:39:45] [Server thread/INFO]: Generating keypair
-[19:39:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:39:46] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-59-g6efeddf-b3074jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.1-SNAPSHOT)
-[19:39:46] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.2
-[19:39:46] [Server thread/INFO]: [VoxelSniper] Loading VoxelSniper v5.169.0-SNAPSHOT-jnks309-git7b2b282
-[19:39:46] [Server thread/INFO]: Preparing level "world"
-[19:39:46] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4197496233935427856)
-[19:39:47] [Thread-8/INFO]: ----- Bukkit Auto Updater -----
-[19:39:47] [Thread-8/INFO]: It appears that you're running a Development Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
-[19:39:47] [Thread-8/INFO]: If you would like to be kept informed about new Development Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'dev'.
-[19:39:47] [Thread-8/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
-[19:39:47] [Thread-8/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
-[19:39:47] [Thread-8/INFO]: ----- ------------------- -----
-[19:39:47] [Server thread/INFO]: Preparing spawn area: 45%
-[19:39:48] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4197496233935427856)
-[19:39:48] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4197496233935427856)
-[19:39:49] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.2
-[19:39:49] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[19:39:49] [Server thread/INFO]: [VoxelSniper] Enabling VoxelSniper v5.169.0-SNAPSHOT-jnks309-git7b2b282
-[19:39:49] [Server thread/INFO]: [VoxelSniper] Registered 75 Sniper Brushes with 149 handles.
-[19:39:49] [Server thread/INFO]: [VoxelSniper] Registered Sniper Listener.
-[19:39:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:39:49] [Server thread/INFO]: Done (2.944s)! For help, type "help" or "?"
-[19:59:38] [User Authenticator #1/INFO]: UUID of player richardfrost is b937e04e-70d2-431b-9c08-47aa88bb8398
-[19:59:38] [Server thread/INFO]: Disconnecting net.minecraft.util.com.mojang.authlib.GameProfile@5cd7399f[id=b937e04e-70d2-431b-9c08-47aa88bb8398,name=richardfrost,properties={textures=[net.minecraft.util.com.mojang.authlib.properties.Property@5d5df07c]},legacy=false] (/174.27.238.216:56124): You are not white-listed on this server!
-[19:59:38] [Server thread/INFO]: net.minecraft.util.com.mojang.authlib.GameProfile@5cd7399f[id=b937e04e-70d2-431b-9c08-47aa88bb8398,name=richardfrost,properties={textures=[net.minecraft.util.com.mojang.authlib.properties.Property@5d5df07c]},legacy=false] (/174.27.238.216:56124) lost connection: You are not white-listed on this server!
+[00:15:59] [Server thread/INFO]: Starting minecraft server version 1.7.9
+[00:15:59] [Server thread/INFO]: Loading properties
+[00:15:59] [Server thread/INFO]: Default game type: SURVIVAL
+[00:15:59] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1456 (MC: 1.7.9) (Implementing API version 1.7.9-R0.1-SNAPSHOT)
+[00:16:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:16:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:16:00] [Server thread/INFO]: Generating keypair
+[00:16:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:16:00] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.2
+[00:16:00] [Server thread/INFO]: [VoxelSniper] Loading VoxelSniper v5.169.0-SNAPSHOT-jnks309-git7b2b282
+[00:16:00] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[00:16:00] [Server thread/INFO]: Preparing level "world"
+[00:16:00] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:16:00] [Server thread/INFO]: View Distance: 10
+[00:16:00] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[00:16:00] [Server thread/INFO]: Clear tick list: false
+[00:16:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:16:00] [Server thread/INFO]: Mob Spawn Range: 4
+[00:16:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:16:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:16:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:16:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:16:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:16:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:16:00] [Server thread/INFO]: Anti X-Ray: true
+[00:16:00] [Server thread/INFO]: 	Engine Mode: 1
+[00:16:00] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[00:16:00] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[00:16:00] [Server thread/INFO]: Random Lighting Updates: false
+[00:16:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[00:16:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:16:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[00:16:00] [Server thread/INFO]: Structure Info Saving: true
+[00:16:00] [Server thread/INFO]: Sending up to 5 chunks per packet
+[00:16:00] [Server thread/INFO]: Max Entity Collisions: 8
+[00:16:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:16:00] [Server thread/INFO]: View Distance: 10
+[00:16:00] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[00:16:00] [Server thread/INFO]: Clear tick list: false
+[00:16:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:16:00] [Server thread/INFO]: Mob Spawn Range: 4
+[00:16:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:16:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:16:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:16:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:16:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:16:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:16:00] [Server thread/INFO]: Anti X-Ray: true
+[00:16:00] [Server thread/INFO]: 	Engine Mode: 1
+[00:16:00] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[00:16:00] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[00:16:00] [Server thread/INFO]: Random Lighting Updates: false
+[00:16:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[00:16:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:16:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[00:16:00] [Server thread/INFO]: Structure Info Saving: true
+[00:16:00] [Server thread/INFO]: Sending up to 5 chunks per packet
+[00:16:00] [Server thread/INFO]: Max Entity Collisions: 8
+[00:16:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:16:00] [Server thread/INFO]: View Distance: 10
+[00:16:00] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[00:16:00] [Server thread/INFO]: Clear tick list: false
+[00:16:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:16:00] [Server thread/INFO]: Mob Spawn Range: 4
+[00:16:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:16:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:16:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:16:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:16:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:16:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:16:00] [Server thread/INFO]: Anti X-Ray: true
+[00:16:00] [Server thread/INFO]: 	Engine Mode: 1
+[00:16:00] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[00:16:00] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[00:16:00] [Server thread/INFO]: Random Lighting Updates: false
+[00:16:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[00:16:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:16:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[00:16:00] [Server thread/INFO]: Structure Info Saving: true
+[00:16:00] [Server thread/INFO]: Sending up to 5 chunks per packet
+[00:16:00] [Server thread/INFO]: Max Entity Collisions: 8
+[00:16:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:16:00] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4197496233935427856)
+[00:16:01] [Server thread/INFO]: Preparing spawn area: 59%
+[00:16:02] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4197496233935427856)
+[00:16:02] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4197496233935427856)
+[00:16:02] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.2
+[00:16:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:16:03] [Server thread/INFO]: [VoxelSniper] Enabling VoxelSniper v5.169.0-SNAPSHOT-jnks309-git7b2b282
+[00:16:03] [Server thread/INFO]: [VoxelSniper] Registered 75 Sniper Brushes with 149 handles.
+[00:16:03] [Server thread/INFO]: [VoxelSniper] Registered Sniper Listener.
+[00:16:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:16:03] [Server thread/INFO]: Done (2.959s)! For help, type "help" or "?"
+[00:16:13] [User Authenticator #1/INFO]: UUID of player ItalianSkillz is 85c73cbf-c9ee-4ba9-b09b-9c22217bf73e
+[00:16:13] [Server thread/INFO]: ItalianSkillz[/36.76.44.113:52935] logged in with entity id 184 at ([world] 299.16951353525525, 41.11163302697389, 289.7690243985703)
+[00:16:16] [User Authenticator #2/INFO]: UUID of player richardfrost is b937e04e-70d2-431b-9c08-47aa88bb8398
+[00:16:16] [Server thread/INFO]: richardfrost[/174.27.238.216:51320] logged in with entity id 185 at ([world] 298.3575359617554, 44.200000047683716, 284.4806601774881)
+[00:16:19] [Server thread/INFO]: [WorldEdit] Using external NmsBlock for this version: CBXNmsBlock_175_5xcompat
+[00:16:26] [User Authenticator #3/INFO]: UUID of player CrusaderDeleters is 7009a023-5963-4ea9-8a3c-405e3c31ec8f
+[00:16:26] [Server thread/INFO]: CrusaderDeleters[/50.29.145.209:60303] logged in with entity id 190 at ([world] 295.8757604814965, 40.36027608990404, 291.31163697471834)
+[00:16:34] [User Authenticator #4/INFO]: UUID of player jdude53 is 671c95c2-7c42-443e-a7be-95c4155d88d0
+[00:16:34] [Server thread/INFO]: jdude53[/36.68.22.97:59554] logged in with entity id 534 at ([world] 309.54033738911886, 67.72681561140459, 272.9729441932079)
+[00:17:12] [Async Chat Thread - #0/INFO]: <CrusaderDeleters> Dude
+[00:17:15] [Server thread/INFO]: ItalianSkillz issued server command: /summon Item
+[00:17:15] [Server thread/INFO]: [ItalianSkillz: Object successfully summoned]
+[00:17:26] [Async Chat Thread - #0/INFO]: <CrusaderDeleters> Dude, cmon
+[00:17:27] [Server thread/INFO]: ItalianSkillz issued server command: /summon Item
+[00:17:27] [Server thread/INFO]: [ItalianSkillz: Object successfully summoned]
+[00:17:29] [Async Chat Thread - #0/INFO]: <ItalianSkillz> what ?
+[00:17:34] [Server thread/INFO]: ItalianSkillz issued server command: /summon Item 373
+[00:17:34] [Server thread/INFO]: [ItalianSkillz: Object successfully summoned]
+[00:17:52] [Async Chat Thread - #0/INFO]: <CrusaderDeleters> Can you guys stop throwing shit?
+[00:17:58] [Async Chat Thread - #0/INFO]: <richardfrost> ok
+[00:18:01] [Async Chat Thread - #0/INFO]: <ItalianSkillz> me ?
+[00:18:03] [Async Chat Thread - #0/INFO]: <jdude53> im stuck
+[00:18:04] [Async Chat Thread - #0/INFO]: <ItalianSkillz> wtf
+[00:18:12] [Server thread/INFO]: ItalianSkillz issued server command: /tp jdude53 ItalianSkillz
+[00:18:12] [Server thread/INFO]: ItalianSkillz: Teleported jdude53 to ItalianSkillz
+[00:18:15] [Async Chat Thread - #0/INFO]: <ItalianSkillz> there u go
+[00:18:16] [Async Chat Thread - #0/INFO]: <jdude53> ther we go
+[00:18:18] [Async Chat Thread - #0/INFO]: <ItalianSkillz> indonesian fairy
+[00:18:33] [Server thread/INFO]: ItalianSkillz issued server command: /give ItalianSkillz 373
+[00:18:33] [Server thread/INFO]: ItalianSkillz: Gave ItalianSkillz some 373 (POTION)
+[00:18:49] [Server thread/INFO]: ItalianSkillz issued server command: /give ItalianSkillz 373 {ActiveEffect:2}
+[00:18:49] [Server thread/INFO]: ItalianSkillz: Gave ItalianSkillz some 373 (POTION)
+[00:18:55] [Async Chat Thread - #0/INFO]: <richardfrost> hot tub! :P
+[00:18:55] [Server thread/INFO]: ItalianSkillz issued server command: /summon
+[00:19:05] [Async Chat Thread - #0/INFO]: <jdude53> too hot to be true
+[00:19:18] [Async Chat Thread - #0/INFO]: <ItalianSkillz> aww
+[00:19:26] [Async Chat Thread - #0/INFO]: <ItalianSkillz> how to summon potion bottle
+[00:19:35] [Async Chat Thread - #0/INFO]: <richardfrost> depends which one
+[00:19:38] [Async Chat Thread - #0/INFO]: <ItalianSkillz> with slowness [2] 255 for 9999 sec
+[00:19:39] [Async Chat Thread - #0/INFO]: <jdude53> dude this kings naked
+[00:19:39] [Async Chat Thread - #0/INFO]: <CrusaderDeleters> Don't mess with him
+[00:19:51] [Async Chat Thread - #0/INFO]: <ItalianSkillz> aww crus
+[00:19:53] [Server thread/INFO]: ItalianSkillz issued server command: /summon
+[00:19:54] [Async Chat Thread - #0/INFO]: <richardfrost> oh you have to get into metadata tags for that

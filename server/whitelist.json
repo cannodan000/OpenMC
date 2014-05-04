@@ -4,12 +4,12 @@
     "name": "jdude53"
   },
   {
-    "uuid": "1262f53e-7764-4896-a828-ae14f13130d5",
-    "name": "Waltersson"
-  },
-  {
     "uuid": "2268cd44-419f-46e2-8064-8f7f706a8e53",
     "name": "CelestialTrick"
+  },
+  {
+    "uuid": "1262f53e-7764-4896-a828-ae14f13130d5",
+    "name": "Waltersson"
   },
   {
     "uuid": "00d73446-d11d-326d-a64e-084246bc7410",
@@ -18,6 +18,10 @@
   {
     "uuid": "85c73cbf-c9ee-4ba9-b09b-9c22217bf73e",
     "name": "ItalianSkillz"
+  },
+  {
+    "uuid": "b937e04e-70d2-431b-9c08-47aa88bb8398",
+    "name": "richardfrost"
   },
   {
     "uuid": "7009a023-5963-4ea9-8a3c-405e3c31ec8f",
